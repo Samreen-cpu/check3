@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Task </title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    /* Navigation and logo */
+    #navigation {
+        display: flex;
+        height: 100px;
+        background-color: white;
+        align-items: center;
+    }
+    #navigation ul {
+        display: flex;
+    }
+    #navigation ul li {
+        color: black;
+        list-style: none;
+        margin: 10px;
+    }
+    ul li a:hover {
+        color: #091354;
+        cursor: pointer;
+    }
+    /* logo */
+    #logo {
+        margin: 10px 30px;
+    }
+    #logo img {
+        height: 50px;
+        margin: 10px 80px;
+    }
+    .img{
+        margin-left: 5%;
+    }
+    /* Sections */
+    #sec1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    #sec1 li{
+        list-style: none;
+        margin: 30px 40px;
+        font-size: 20px;
+    }
+    #sec2 th{
+      font-size: 20px;
+     padding: 10px 60px;
+        }
+     #sec3 td{
+     font-size: 20px;
+     padding: 10px 60px;
+        }
+     #sec4 th{
+      font-size: 30px;
+     padding: 10px 70px;
+     color: #091354;
+        }
+     #sec5 td{
+      font-size: 20px;
+     padding:5px 40px; 
+     text-align: center;
+     color: #091354;
+        }
+    #tb1{
+         margin-bottom: 6%;
+        }
+     #tables{
+            margin-top: 8%;
+        }
+    
+/* Headings */
+    h1 {
+        font-size: 50px;
+        margin-top: 45px;
+        text-align: center;
+     color: #091354;
+    }
+    h2{
+        padding: 15px 5px;
+        text-align: center;
+        border: 2px solid rgb(229, 147, 147);
+        background-color:rgb(240, 215, 170);
+        border-radius: 10px;
+        color: #091354;
+    }
+
+
+    h4 {
+        color: grey;
+        text-align: center;
+    }
+    .heading1 ul li{
+        margin: 0px 20px;
+      
+    }
+    .heading1 ul{
+        display: flex;
+        margin: 0px 50px;
+
+    }
+    .heading2{
+        display: flex;
+    }
+    /* Pictures */
+    .pic{
+        display: flex;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    #bar1{
+        width: 550px;
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+    /* Containers */
+    .container{
+        width: 800px;
+        margin-top: 0px;
+        height: 400px;
+    }
+    .container1{
+        font-size: 50px;
+        margin-top: 5%;
+        text-align: center;
+        color: #091354;
+    }
+    .container1 p{
+        font-size: 50px;
+    }
+    .container2{
+       background-color: rgb(248, 238, 238);
+       border: 2px solid rgb(177, 177, 241);
+        margin-top: 5%;
+        width: 500px;
+        height: 250px;
+        margin-left: 30%;
+        border-radius: 5px;
+    }
+    .container3{
+        background-color: #091354;
+        width: 1345px;
+        height: 1100px;
+        margin-top: 60px;
+        line-height: 1.42857143;
+    }
+    /* Boxes */
+    #mybox1{
+        background-color: rgb(255, 252, 252);
+        width: 50%;
+        float: left;
+        margin-top: 10%;
+        margin-left: 15%;
+        font-size: 20px;
+    }
+    #mybox2{
+        width: 34%;
+        float: right;
+        margin-top: 12%;
+    }
+    #mybox2 img{
+        background-color: rgb(255, 252, 252);
+        margin-left: 42%;
+        width: 700px;
+    
+    }
+    #mybox1 h1{
+        margin-right: 28%;
+    }
+    p{
+      font-size: 35px;
+    }
+    #p1{
+        margin-top: 3%;
+        font-size: 25px;
+    }
+    #mybox3 img{
+        width: 50%;
+        float: left;
+       margin-top: 10%;
+
+    }
+    #mybox4{
+        width:50% ;
+        float: right;
+    }
+    #mybox4 li{
+        list-style: none;
+        padding: 10px 0px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #box5{
+        /* background-color: #091354; */
+        width:600px;
+        float: left;
+        margin-left: 10px;
+    }
+    #box6 img{
+     width: 700px;
+    margin-top: 350px;
+    }
+    #pfirst{
+        color: aliceblue;
+        font-size: 40px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    #psecond{
+        color: #5065ec;
+        font-size: 40px;
+        margin-left: 100px;
+    }
+    #pthird{
+        font-size: 40px;
+        color: rgba(159, 105, 253);
+        margin-left: 100px;
+    }
+    #pfourth{
+        color: #ec6ef5;
+        font-size: 40px;
+        margin-left: 100px;
+    }
+    #p2{
+        color: #ffff;
+        font-size: 25px;
+        margin-left: 100px;
+        margin-top: 15px;
+        padding-top: 20px;
+    }
+    #p3{
+        color: grey;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 35px;
+        padding-top: 20px;
+    }
+    #p4{
+        color: grey;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 35px;
+    }
+    #p5{
+        color: grey;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 35px;
+    }
+
+
+
+
+</style>
+
+<body>
+    <nav id="navigation">
+        <div id="logo">
+            <img src="ucube-logoo.png" alt="" srcset="">
+        </div>
+        <div id="list">
+            <ul>
+                <li class="list"><a>Contact us</a></li>
+                <li class="list"><a>Policy Refund</a> </li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <div>
+        <h1>Project Management Documentation<br />Templates</h1>
+    </div>
+    <ul id="sec1">
+        <li><a>Project Portfolios Dashboard</a></li>
+        <li><a>Project Presentation or</a></li>
+        <li><a>Project Life-Cycle Templates</a></li>
+    </ul>
+    <div>
+        <h4>FOR MORE DETAIL FIND OUT MORE BELOW</h4>
+    </div>
+    <br>
+    <div class="img">
+        <img src="BANNER.png" alt="">
+    </div>
+    <table id="tables">
+        <thead id="sec2">
+            <tr>
+                <th>Complete Project Life Cycle Templates</th>
+                <th>Easy Project planning Documentation</th>
+                <th>Easy Workflow & Project Reporting</th>
+            </tr>
+        </thead>
+        <tbody id="sec3">
+            <tr>
+                <td>Find Worktime Tracking & reports <br> and managemant </td>
+                <td>Plan,track & manage project of any <br> size</td>
+                <td>For project engineers and project <br> leaders</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="bar1">
+
+        <h2>"SEP 2023 Updates have been added!<br> All in One Bundle"</h2>
+    </div>
+    
+    <div class="pic">
+    <img src="Documentation.png" alt="">
+     <img src="planing.png">
+    <img src="Presentation.png">    
+    </div>
+    <table id="tb1">
+        <thead id="sec4">
+            <tr>
+                <th>Project Documentation</th>
+                <th>Project Planning</th>
+                <th>Project Presentation</th>
+            </tr>
+        </thead>
+        <tbody id="sec5">
+            <tr>
+                <td>According to project Life-Cycle & Planning <br> Phases</td>
+                <td>Plan,Start, Organize and manage project from<br> Scratch</td>
+                <td>Complete Buisness & <br> project planning slides</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr> 
+    <div class="container">
+        <div id="mybox1">
+            <h1>Don't Afraid</h1><br>
+            <p>If You Want To Start <br>A Project From Scratch....</p>
+        </div>
+            <div id="mybox2">
+                <img  srcset="blu.png">
+            </div>
+    </div>
+    <div class="container1">
+        <P>Perfect & Advance Easy to Use<br>Project Plan Templates Automatically Adapts To<br>Current Market Condition</P>
+        <p id="p1">3200+ Templates & Tools To Help You Start,Run & Grow Your Buisness</p>
+    </div>
+    <div class="container2">
+        <div id="mybox3">
+            <img src="Documentation (1).png">
+        </div>
+ <div>
+   <ul id="mybox4" >
+    <li>Management Of Risk (MoR)</li>
+    <li>Project Offices (P3O)</li>
+    <li>PM Institue(PMI)</li>
+    <li>Project Maturity Model(P3M3)</li>
+    <li>Portfolio Management(PPM)</li>
+   </ul>
+</div>
+ </div>
+ <div class="container3">
+<div id="box5">
+    <p id="pfirst">Here is How These<br>Project Management<br>Documents</p>
+    <p id="psecond">ELIMINATES all the </p>
+    <p id="pthird">Project Failure</p>
+    <p id="pfourth">Reasons!</p>
+    <P id="p2">The documents give you te liberty of<br>stopping wherever you want and <br> then restart the work from where you <br>stopped. </P>
+<p id="p3">The documents can help speed up your work and<br>hence bring about a sence of balance and<br>clamness to the project manager and his team.</p>
+<p id="p4">The document can also structure your <br>communication and engagements ensuring that<br>the final product is of high quality.</p>
+<p id="p5">You don't have to think of a specific<br>layout/design/colour.In fact, all three elements<br>included in documents and all you have to do in <br>insert your content and images. </p>
+</div>
+<div id="box6">
+    <img  id="img6" src="blue-banner6.png">
+</div>
+ </div>
+</body>
+
+</html>
